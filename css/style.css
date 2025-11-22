@@ -1,0 +1,91 @@
+.sidemenu{
+transition: all .4s;
+transform: translateX(-75%);
+}
+
+
+i{
+    cursor: pointer;
+}
+
+ul li{
+    list-style: none;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.homeitem:hover .homelayer{
+top: 0;
+}
+.cat:hover .homelayer{
+top: 0;
+}
+.areaaa:hover .homelayer{
+top: 0;
+}
+.ingreeeed:hover .homelayer{
+top: 0;
+}
+
+.homelayer{
+    top: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .8);
+    transition: all .4s;
+}
+
+.searchitem:hover .searchlayer{
+    top: 0;
+}
+
+.searchlayer{
+     top: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .8);
+    transition: all .4s;
+}
+
+.catitem:hover .catlayer{
+    top: 0;
+}
+
+.catlayer{
+     top: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .8);
+    transition: all .4s;
+    text-align: center;
+}
+
+.detailes{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* z-index: 10; */
+}
+@media screen and (max-width : 767px) {
+    .sidemenu{
+        width: 50%;
+    }
+}
+@media screen and (min-width : 767px) {
+    .sidemenu{
+        width: 25%;
+    }
+}
